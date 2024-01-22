@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Mulish', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+ /*====Main Button====*/
+
+ .main-btn {
+    border: 2px solid #ff693d;
+    color: #ff693d;
+    padding: 10px 20px;
+    transition: all 0.3s;
+    background-color: #fff;
+  }
+
+
+  .main-btn:hover {
+   box-shadow: inset 7.4em 0 0 0 #ff693d;
+   color: #fff;
+  }
+
+   .main-btn a {
+     color: #ff693d;
+     font-weight: 700;
+   }
+
+   .main-btn:hover a,
+   .main-btn a:hover {
+     color:#fff;
+   }
+
+/* coding start  */
+
+.body{
+  background-image: linear-gradient( #96BBE8, #D7B1D2, #9EBAE6);
+  color: black;
+  /* background-color: rgb(41, 169, 255); */
+  /* background: radial-gradient(circle, #888888, #000000); */
+  /* background: linear-gradient(#383838,#2c2c2c,#1a1a1a,#000000); */
+  overflow-x: hidden;
+}
+
+
+/* #96BBE8, #D7B1D2, #9EBAE6 */
+
+
+/* Navbar */
+nav{
+  position: sticky;
+  top: 20px;
+  left: 20px;
+  /* width: 100vw; */
+  height: 10vh;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.505);
+  backdrop-filter: blur(50px);
+  display: flex;
+  color: black;
+  /* transform: scale(1.02); */
+  border-radius: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 48px;
+  margin-bottom: 20px;
+}
+
+
+.heading{
+  width: 30vw;
+  font-size: 36px;
+  font-weight:600;
+}
+
+nav ul{
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  /* width: max-content; */
+  margin-bottom: 0px;
+  width: 50w;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul li{
+  padding: 4px 24px;
+  font-size: 20px;
+  font-weight:600;
+  transition: transform 0.2s;
+
+}
+
+nav ul li:hover{
+  background-color: white;
+  color: black;
+  border-radius: 30px;
+  transform: scale(1.1);
+}
+
+.main-box{
+  background: rgba(255, 255, 255, 0.505);
+  backdrop-filter: blur(50px);
+  border-radius: 30px;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.hero{
+  padding: 0px 150px;
+}
+
+p{
+  position: relative;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700 !important;
+  font-size: 40px;
+  z-index: 5;
+}
+
+p::before {
+  content: "";
+  position: absolute;
+  left: 37%;
+  z-index: -1;
+  top: 50%;
+  height: 60%;
+  width: 25vw; /* Adjust the width of the stripe */
+  background-color: rgb(1, 238, 187);
+}
+
+
+
+
+
+
+td, th{
+  color: black;
+  padding-left: 8px;
+  width: 35vw;
+}
+
+
+tr{
+  border-bottom: 1px solid #aaa !important;
+}
+
+
+
+.date2{
+  background-color: rgb(0, 0, 0);
+  color: #2d2d2d;
+  display: none;
+  width: 25vw;
+}
+
+
+.foot-img img{
+  height: 300px;
+}
+
